@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39392" started-at="2018-06-10T18:53:39Z" finished-at="2018-06-10T18:54:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39392" started-at="2018-06-10T18:53:39Z" finished-at="2018-06-10T18:54:18Z">
+      <class name="webpage.MercuryProject.LoginPage">
+        <test-method status="PASS" signature="browserinitialize()[pri:0, instance:webpage.MercuryProject.LoginPage@651fd0]" name="browserinitialize" is-config="true" duration-ms="29769" started-at="2018-06-10T14:53:39Z" finished-at="2018-06-10T14:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialize -->
+        <test-method status="PASS" signature="flightreservation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webpage.MercuryProject.LoginPage@651fd0]" name="flightreservation" duration-ms="5510" started-at="2018-06-10T14:54:09Z" data-provider="test1" finished-at="2018-06-10T14:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightreservation -->
+        <test-method status="PASS" signature="selectflight(java.lang.String, java.lang.String)[pri:0, instance:webpage.MercuryProject.LoginPage@651fd0]" name="selectflight" duration-ms="1535" started-at="2018-06-10T14:54:14Z" data-provider="test2" depends-on-methods="webpage.MercuryProject.LoginPage.flightreservation" finished-at="2018-06-10T14:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unified Airlines 363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pangea Airlines 632]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectflight -->
+        <test-method status="PASS" signature="finalbooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:webpage.MercuryProject.LoginPage@651fd0]" name="finalbooking" duration-ms="2133" started-at="2018-06-10T14:54:16Z" data-provider="test3" depends-on-methods="webpage.MercuryProject.LoginPage.selectflight" finished-at="2018-06-10T14:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[brian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[johnson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Low Calorie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Discover]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1223-4335-1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[brian]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[johnson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalbooking -->
+      </class> <!-- webpage.MercuryProject.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
